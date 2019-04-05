@@ -1,0 +1,94 @@
+<html>
+<head>
+  <title>中国人寿招聘</title>
+  <style type="text/css">
+      body {font-size:16px;
+	        hackground-color:#2A1959;}
+	  h1{font-size:150%}<Hr>
+  </style>
+</head>
+<body>
+   <h1 align="center">中国人寿南山理财中心应聘人员登记表</h1><Hr>
+   <p align="left">
+     <b>推荐人：</b><input type="text" name="referrer">
+     <b>推荐人编码：</b><input type="number" name="referrerid">
+     <b>推荐人电话：</b><input type="number" name="referrerphone"><br>
+   <form name="form1" method="post" active="success.html">
+   <table border="1" color="0000ff">
+     <tr>
+	    <td colspan="2"><img src="C:\Users\Admin\Desktop\教学\招聘\images\中国人寿.jpg" style = "width : 700px; height : 300px; margin:0 auto"></td>
+	 </tr>
+     <tr>
+	   <td width="80">姓名:</td>
+	   <td width="150"><input type="text" name="myname"></td>
+	 </tr>
+	 <tr>
+	   <td width="80">身份证号:</td>
+	   <td><input type="myIDcard" name="myIDcard">
+	 </tr>
+	 <tr>
+	   <td width="80">性别:</td>
+	   <td><input type="radio" name="sex" value="male">男
+	 <input type="radio" name="sex" value="female">女</td>
+	 </tr>
+	 <tr>
+	   <td>电话:</td>
+	   <td> <input type="number" name="phone" min="1000000000" max="99999999999" step="1"></td>
+	 </tr>
+	  <tr>
+	   <td>年龄:</td>
+	   <td> <input type="number" name="myage" min="21" max="55" step="1"  placeholder=21></td>
+	 </tr>
+	   <form>面试日期：<input name="user date" type="date"/></form>
+	 <tr>
+	   <td>英语水平:</td>
+	   <td> <input type="range" name="englishtype" min="2" max="8" step="2" value=“2” /></td>
+	 </tr>
+	 <tr>
+	   <td>邮箱:</td>
+	   <td> <input type="email" name="email" placeholder=emile@163.com></td>
+	 </tr>
+	 <tr>
+	    <td>面试岗位:</td>
+	    <td> <select name="alist">
+			<option value="officer">人事助理</option>
+			<option value="market">理财规划师</option>
+			<option value="governor">筹备主管</option>
+		</select>
+        </td>
+	<tr>
+		<td>请上传所需附件</td>
+		<td><input type="file" id="myfilm"/></td>
+	</tr>
+	 <tr>
+	     <td>特别技能：</td>
+		 <td>
+		 <input name="check1" type="checkbox" value="computer">电脑
+		 <input name="check2" type="checkbox" value="painting">绘画
+		 <input name="check3" type="checkbox" value="music">音乐
+		 <input name="check4" type="checkbox" value="sport">体育
+		 <input name="check5" type="checkbox" value="other">其他
+		 </td>
+	 </tr>
+	 <tr>
+	     <td>运用语言：</td>
+		 <td>
+		 <input name="check6" type="checkbox" value="putong">普通话
+		 <input name="check7" type="checkbox" value="fangyan">粤语
+		 <input name="check8" type="checkbox" value="english">英语
+		 <input name="check9" type="checkbox" value="otherlanguage">其他
+		 </td>
+	 </tr>
+	 <tr>
+	     <td>备注：</td>
+		 <td><textarea name="textarea" rows="3" cols="80"></textarea>
+		 </td>
+	 </tr>
+	 <tr>
+	    <td colspan="2" align="center"><input name="sub" type="submit" value="提交">
+		&nbsp;&nbsp;&nbsp;<input name="reset" type="reset" value="重置">
+	 </tr>
+   </table>
+</form>
+</body>
+</html>
